@@ -5,6 +5,8 @@ python -m venv venv
 
 pip install - r requirements.txt
 
+wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt #Download the pre-trained YOLOv7-tiny weights to use them for object detection.
+
 python detect.py --weights yolov7-tiny.pt --source dataset/test/sampah.jpg --device cpu
 
 # Official YOLOv7
