@@ -1,7 +1,10 @@
 # Simple TODO
 python -m venv venv
+
 ./venv/Script/activate #activate virtual environment
+
 pip install - r requirements.txt
+
 python detect.py --weights yolov7-tiny.pt --source dataset/test/sampah.jpg --device cpu
 
 # Official YOLOv7
